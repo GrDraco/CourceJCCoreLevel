@@ -39,7 +39,7 @@ public class MainClient {
 
                 @Override
                 public void onClose() {
-                    scanner.close();
+                    System.exit(0);
                 }
 
                 @Override
